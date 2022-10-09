@@ -53,11 +53,11 @@ using namespace std;
 B::B()
 {
 	#ifdef _DEBUG
-	this->b=200;
+	this->b = 200;
 	#endif
 }
 ```
 
 此时语句 `this->b = 200;` 不执行
 
-*一般地为了便于阅读，#ifdef后的标识符会写为_DEBUG*
+*一般地，为了便于阅读，#ifdef后的标识符会写为_DEBUG*
